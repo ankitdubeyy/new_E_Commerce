@@ -1,0 +1,42 @@
+name: e_commerce_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS style icons
+  cupertino_icons: ^1.0.5
+
+  # Add your dependencies below (make sure to use latest stable versions)
+  http: ^1.2.2 # Updated http dependency as per suggestion
+  equatable: ^2.0.5
+  weather_icons: ^3.0.0 # Updated for null-safety support
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/headfone.jpeg
+    - assets/unamed.png
+    - assets/Gemini.jpeg
+    - assets/earphone.jpeg
+    - assets/ecom-lgo.png # Corrected the dash in the file name
+    - assets/boy.jpg
+    - assets/ankit.jpg
+    - assets/ecom-lgo.png
+linter:
+  rules:
+    always_specify_types: false
+    prefer_const_constructors: false
+    avoid_print: false
